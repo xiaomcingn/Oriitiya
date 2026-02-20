@@ -1,0 +1,125 @@
+{
+  "Alas": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "Alas",
+      "General",
+      "Restart"
+    ]
+  },
+  "Farm": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "Main",
+      "Main2",
+      "Main3",
+      "GemsFarming",
+      "ThreeOilLowCost"
+    ]
+  },
+  "Event": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "EventGeneral",
+      "Event",
+      "Event2",
+      "Raid",
+      "RaidScuttle",
+      "Hospital",
+      "Coalition",
+      "MaritimeEscort",
+      "EventShop",
+      "WarArchives"
+    ]
+  },
+  "EventDaily": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "EventA",
+      "EventB",
+      "EventC",
+      "EventD",
+      "EventSp",
+      "RaidDaily",
+      "CoalitionSp"
+    ]
+  },
+  "Reward": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "Commission",
+      "Tactical",
+      "Research",
+      "Dorm",
+      "Meowfficer",
+      "Guild",
+      "Reward",
+      "Awaken",
+      "Island"
+    ]
+  },
+  "DailyMission": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "Daily",
+      "Hard",
+      "Exercise",
+      "ShopFrequent",
+      "ShopOnce",
+      "Shipyard",
+      "Gacha",
+      "Freebies",
+      "Minigame",
+      "PrivateQuarters"
+    ]
+  },
+  "Opsi": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "OpsiGeneral",
+      "OpsiAshBeacon",
+      "OpsiAshAssist",
+      "OpsiExplore",
+      "OpsiShop",
+      "OpsiVoucher",
+      "OpsiDaily",
+      "OpsiObscure",
+      "OpsiAbyssal",
+      "OpsiArchive",
+      "OpsiStronghold",
+      "OpsiMonthBoss",
+      "OpsiMeowfficerFarming",
+      "OpsiHazard1Leveling",
+      "OpsiScheduling",
+      "OpsiCrossMonth"
+    ]
+  },
+  "Island": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "IslandInfo",
+      "IslandSeasonTask"
+    ]
+  },
+  "Tool": {
+    "menu": "collapse",
+    "page": "tool",
+    "tasks": [
+      "Daemon",
+      "OpsiDaemon",
+      "EventStory",
+      "BoxDisassemble",
+      "Benchmark",
+      "AzurLaneUncensored",
+      "GameManager"
+    ]
+  }
+}
