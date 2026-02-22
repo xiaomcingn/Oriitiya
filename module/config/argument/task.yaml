@@ -8,6 +8,7 @@ Alas:
       - Error
       - Optimization
       - DropRecord
+      - EmulatorManagement
     General:
       - Retirement
       - OneClickRetire

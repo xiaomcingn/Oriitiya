@@ -4355,6 +4355,20 @@
       "help": "游戏被强制结束后自动登录游戏"
     }
   },
+  "EmulatorManagement": {
+    "_info": {
+      "name": "模拟器管理",
+      "help": ""
+    },
+    "ScheduledEmulatorRestart": {
+      "name": "定时重启模拟器",
+      "help": "启用后，每隔指定时间自动重启模拟器，避免长时间运行导致的内存泄漏或卡顿问题。重启会等当前任务完成后再执行。"
+    },
+    "RestartIntervalHours": {
+      "name": "重启间隔（小时）",
+      "help": "每隔多少小时自动重启一次模拟器。"
+    }
+  },
   "Storage": {
     "_info": {
       "name": "任务状态",

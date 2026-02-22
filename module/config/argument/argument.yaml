@@ -1196,5 +1196,8 @@ AzurLaneUncensored:
     display: disabled
 GameManager:
   AutoRestart: true
-
-
+EmulatorManagement:
+  ScheduledEmulatorRestart: false
+  RestartIntervalHours:
+    value: 4
+    validate: [1, 24]

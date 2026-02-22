@@ -38,6 +38,8 @@ class AzurLaneAutoScript:
         # Restart counters
         self.consecutive_game_stuck = 0
         self.consecutive_adb_offline = 0
+        # Scheduled emulator restart
+        self.last_emulator_restart_time = time.time()
 
     def _try_restart_emulator(self):
         """
@@ -771,6 +773,22 @@ class AzurLaneAutoScript:
                     del_cached_property(self, 'config')
                     logger.info('Server or network is recovered. Restart game client')
                     self.config.task_call('Restart')
+                # Check scheduled emulator restart (between tasks, won't interrupt running task)
+                if self.config.EmulatorManagement_ScheduledEmulatorRestart:
+                    elapsed_hours = (time.time() - self.last_emulator_restart_time) / 3600
+                    interval = self.config.EmulatorManagement_RestartIntervalHours
+                    if elapsed_hours >= interval:
+                        logger.hr('Scheduled Emulator Restart', level=1)
+                        logger.info(f'Emulator has been running for {elapsed_hours:.1f} hours, '
+                                    f'scheduled restart interval is {interval} hours')
+                        if self._try_restart_emulator():
+                            self.last_emulator_restart_time = time.time()
+                            self.config.task_call('Restart')
+                            del_cached_property(self, 'config')
+                            continue
+                        else:
+                            logger.warning('Scheduled emulator restart failed, continuing normally')
+
                 # Get task
                 task = self.get_next_task()
                 # Init device and change server

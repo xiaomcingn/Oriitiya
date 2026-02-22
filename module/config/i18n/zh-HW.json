@@ -4355,6 +4355,20 @@
       "help": "GameManager.AutoRestart.help"
     }
   },
+  "EmulatorManagement": {
+    "_info": {
+      "name": "EmulatorManagement._info.name",
+      "help": "EmulatorManagement._info.help"
+    },
+    "ScheduledEmulatorRestart": {
+      "name": "EmulatorManagement.ScheduledEmulatorRestart.name",
+      "help": "EmulatorManagement.ScheduledEmulatorRestart.help"
+    },
+    "RestartIntervalHours": {
+      "name": "EmulatorManagement.RestartIntervalHours.name",
+      "help": "EmulatorManagement.RestartIntervalHours.help"
+    }
+  },
   "Storage": {
     "_info": {
       "name": "Storage._info.name",

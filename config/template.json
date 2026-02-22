@@ -112,6 +112,10 @@
       "TelemetryReport": true,
       "BugReport": true
     },
+    "EmulatorManagement": {
+      "ScheduledEmulatorRestart": false,
+      "RestartIntervalHours": 4
+    },
     "Storage": {
       "Storage": {}
     }

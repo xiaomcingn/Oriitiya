@@ -749,5 +749,9 @@ class GeneratedConfig:
     # Group `GameManager`
     GameManager_AutoRestart = True
 
+    # Group `EmulatorManagement`
+    EmulatorManagement_ScheduledEmulatorRestart = False
+    EmulatorManagement_RestartIntervalHours = 4
+
     # Group `Storage`
     Storage_Storage = {}

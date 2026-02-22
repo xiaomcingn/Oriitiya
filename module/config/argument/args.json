@@ -542,6 +542,20 @@
         "value": true
       }
     },
+    "EmulatorManagement": {
+      "ScheduledEmulatorRestart": {
+        "type": "checkbox",
+        "value": false
+      },
+      "RestartIntervalHours": {
+        "type": "input",
+        "value": 4,
+        "validate": [
+          1,
+          24
+        ]
+      }
+    },
     "Storage": {
       "Storage": {
         "type": "storage",
